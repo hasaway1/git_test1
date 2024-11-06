@@ -1,5 +1,9 @@
 package com.example.demo.member;
 
-public class Member {
+import lombok.*;
 
+@Data
+public class Member {
+	private String username;
+	private String password;
 }
